@@ -1,0 +1,18 @@
+{
+  "name": "08-creatingqrcode",
+  "version": "1.0.0",
+  "description": "Criando um gerador de QR Code para E-commerces no Node.js",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start":     "node                 ./src/index.js",
+    "start:env": "node --env-file=.env ./src/index.js"
+  },
+  "author": "pedro-da-silveira-thiago",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
