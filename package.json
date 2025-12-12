@@ -5,6 +5,7 @@
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
+    "pre-build": "npm i",
     "start":     "node                 ./src/index.js",
     "start:env": "node --env-file=.env ./src/index.js"
   },
